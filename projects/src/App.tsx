@@ -1,5 +1,5 @@
 import React from "react";
-import { projectData } from "./projectData";
+import { projectData } from "./projectData.ts";
 
 export default function App() {
   return (
