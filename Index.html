@@ -1,22 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Cole Johnson Project</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cole Johnson | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Portfolio showcasing development skills, projects, and contact information for Software Developer Cole Johnson.">
 </head>
+
 <body>
+    <!-- Navigation -->
     <header>
-    <h1> Cole Johnson </h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <nav class="navbar">
+            <a href="index.html" class="logo">CJ<span>Dev</span></a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects/index.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="accent">Cole Johnson</span></h1>
+                <h2>Software Developer</h2>
+                <p>
+                    Passionate about building scalable web applications and solving real-world problems using
+                    modern technologies like JavaScript, React, and TypeScript.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects/index.html" class="btn-primary">View My Projects</a>
+                    <a href="assets/resume.pdf" class="btn-secondary" target="_blank" rel="noopener noreferrer">Download Resume</a>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="assets/images/profile.jpg" alt="Photo of Cole Johnson" />
+            </div>
+        </section>
+
+        <!-- Featured Projects Preview -->
+        <section class="featured-projects">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <h3>Smart Inventory Dashboard</h3>
+                    <p>HTML, CSS & JavaScript based inventory management interface with dynamic UI updates.</p>
+                    <a href="projects/index.html" class="card-btn">View Project</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Country Insights App</h3>
+                    <p>TypeScript + DOM interactions demonstrating OOP concepts and reusable components.</p>
+                    <a href="projects/index.html" class="card-btn">View Project</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Portfolio React Gallery</h3>
+                    <p>React + TypeScript app showcasing dynamic project rendering and scalable architecture.</p>
+                    <a href="projects/index.html" class="card-btn">View Project</a>
+                </article>
+
+            </div>
+        </section>
+
     </main>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Sample Page. All rights reserved.</p>
+        <p>© 2025 Cole Johnson • Software Developer</p>
+        <div class="footer-links">
+            <a href="https://github.com/" target="_blank" aria-label="GitHub profile">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn profile">LinkedIn</a>
+        </div>
     </footer>
+
+    <script src="js/contact.js" defer></script>
+</body>
 </html>
