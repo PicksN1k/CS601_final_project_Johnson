@@ -249,3 +249,20 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+input.invalid,
+textarea.invalid {
+  border: 2px solid #ff4a4a !important;
+  box-shadow: 0 0 10px rgba(255, 74, 74, 0.5);
+}
+
+input.valid,
+textarea.valid {
+  border: 2px solid var(--accent) !important;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Smooth visual transitions */
+input,
+textarea {
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
