@@ -418,3 +418,28 @@ textarea {
 .btn-primary:hover {
   background-color: #005fcc;
 }
+
+.resume-container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.pdf-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pdf-frame {
+    width: 850px;
+    height: calc(100vh - 200px);
+    border: none;
+    background: #1a1a1a;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
