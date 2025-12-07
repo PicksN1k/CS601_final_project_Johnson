@@ -1,27 +1,16 @@
 export const projectData = [
+  export const projectData = [
   {
-    title: "Smart Inventory Dashboard",
-    tech: "HTML, CSS & JavaScript",
-    desc: "Inventory management app with dynamic UI updates.",
-    link: "./Smart Inventory Dashboard/index.html"
-  },
-  {
-    title: "Contact Form Validation",
-    tech: "JavaScript DOM",
-    desc: "Real-time validation with interactive user feedback.",
-    link: "./Form Validation Project/index.html"
+    title: "Contact Form + Validation",
+    tech: "HTML • CSS • JavaScript",
+    desc: "Live inline form validation using DOM scripting and error handling.",
+    github: "https://github.com/PicksN1k/CS601_HW2_Johnson"
   },
   {
     title: "Country Management System",
-    tech: "TypeScript (Compiled to JS)",
-    desc: "Interactive OOP-based country info display.",
-    link: "./country-app/index.html"
-  },
-  {
-    title: "React Component Gallery",
-    tech: "React + TypeScript",
-    desc: "Reusable and scalable component rendering.",
-    link: "./React Project/index.html"
+    tech: "TypeScript • DOM",
+    desc: "Object-oriented country information manager built with TypeScript.",
+    github: "https://github.com/PicksN1k/CS601_HW1_Johnson"
   }
 ];
 
@@ -35,7 +24,7 @@ projectData.forEach((p) => {
   <h3>${p.title}</h3>
   <p class="tech">${p.tech}</p>
   <p>${p.desc}</p>
-  <a href="${p.link}" target="_blank" class="btn-primary">View Project</a>
+  <a href="${p.github}" target="_blank" class="btn-primary">View on GitHub</a>
 `;
 
   container.appendChild(card);
