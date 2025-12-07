@@ -1,14 +1,11 @@
 // Grab elements
 const form = document.getElementById("contactForm");
-
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const messageInput = document.getElementById("message");
-
 const nameError = document.getElementById("name-error");
 const emailError = document.getElementById("email-error");
 const messageError = document.getElementById("message-error");
-
 const successMsg = document.getElementById("success-message");
 
 // Email validation format
