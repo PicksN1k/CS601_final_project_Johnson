@@ -1,3 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Pushes footer to bottom */
+}
+
 :root {
   --bg-dark: #0a0f14;
   --bg-card: #10171f;
@@ -265,4 +278,48 @@ textarea.valid {
 input,
 textarea {
   transition: border-color .25s ease, box-shadow .25s ease;
+}
+/* 🔹 About Page Layout */
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 4rem 8%;
+  align-items: center;
+}
+
+.about-section img {
+  width: 100%;
+  max-width: 330px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.about-content h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-content p {
+  margin: 1rem 0;
+  opacity: 0.9;
+}
+
+.about-buttons {
+  margin-top: 1.7rem;
+}
+
+/* 🔹 Responsive */
+@media(max-width: 850px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-image {
+    order: -1;
+  }
 }
