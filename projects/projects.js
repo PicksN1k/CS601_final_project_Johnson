@@ -1,5 +1,4 @@
 export const projectData = [
-  export const projectData = [
   {
     title: "Contact Form + Validation",
     tech: "HTML • CSS • JavaScript",
