@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cole Johnson | Software Developer</title>
+    <title>Projects | Cole Johnson</title>
     <link rel="stylesheet" href="../styles.css">
-    <meta name="description" content="Portfolio showcasing development skills, projects, and contact information for Software Developer Cole Johnson.">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">Cole Johnson<span> Dev</span></a>
-            <ul class="nav-links">
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../skills.html">Skills</a></li>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    <div id="root"></div>
+<header>
+    <nav class="navbar">
+        <a href="../index.html" class="logo">Cole Johnson<span> Dev</span></a>
+        <ul class="nav-links">
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../skills.html">Skills</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="projectsContainer" class="projects-grid"></div>
+<main>
+    <section class="projects-section">
+        <h1 class="section-title">My Projects</h1>
+        <div id="projectsContainer" class="projects-grid"></div>
+    </section>
 </main>
 
 <footer>
     <p>© 2025 Cole Johnson • Software Developer</p>
 </footer>
 
-<script type="module" src="./src/main.tsx"></script>
-
+<script src="dist/projects.js" defer></script>
 </body>
 </html>
