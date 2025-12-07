@@ -1,4 +1,4 @@
-export const projectData = [
+const projectData = [
   {
     title: "Contact Form + Validation",
     tech: "HTML • CSS • JavaScript",
