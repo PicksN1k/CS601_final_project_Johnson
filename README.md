@@ -1,17 +1,45 @@
 # CS601_final_project_Johnson
 # Author Cole Johnson
 
-Goal
+## 🎯 Goal
 
-This project is a fully responsive and interactive developer portfolio designed to demonstrate my skills, highlight completed academic projects, and provide a professional point of contact for future opportunities. The purpose of the website is to showcase the work I have completed throughout my Master of Science in Software Development program, including JavaScript-based dynamic interfaces, TypeScript applications, and early React component development. The structure of the site is intentionally simple and efficient, focusing on clean navigation and an intuitive user experience.
----
-Structure
+This project is a fully responsive and interactive developer portfolio designed to demonstrate my technical skills, highlight completed academic assignments, and provide a professional platform for future networking and opportunities. The website showcases work completed during my Master of Science in Software Development program including JavaScript-based interfaces, TypeScript applications, and introductory React development. Its structure focuses on clean navigation, intuitive user experience, and accessible content display.
 
-The portfolio is organized into several key sections. The Home page introduces who I am and includes quick access to featured projects and my downloadable resume. The About page provides more personal background, including my professional interests and career goals. The Skills page lists core technical abilities that I have developed through education and practical work. The Projects page dynamically displays each completed assignment using JavaScript to populate card components from a data source, linking directly to their respective GitHub repositories for preview and review. The Contact page includes a form with real-time validation using DOM scripting to ensure clean and user-friendly interactions. The Resume page allows recruiters and hiring managers to scroll through or download my resume directly without leaving the site, ensuring convenient access.
 ---
 
-Codebase
-This website was built using HTML5, CSS3, and JavaScript, with an emphasis on DOM manipulation, reusable styling, and responsive design techniques. The project also features basic TypeScript integration to structure project data and demonstrate object-oriented principles learned in coursework. The site is deployed using GitHub Pages, making updates efficient through version-controlled development. The portfolio is designed not only as a course assignment but as a professional tool that will grow alongside my skillset as I progress further into software engineering and web development.
+## 📌 Structure
+
+The portfolio is organized into several key sections:
+
+- **Home:** Introduces my role and goals as a software developer while offering quick access to featured work and a downloadable resume.
+- **About:** Provides professional background and interests that drive my career in technology.
+- **Skills:** Lists core technologies, tools, and programming experience developed through coursework and practical application.
+- **Projects:** Dynamically displays completed assignments using JavaScript to populate reusable project card components from structured data. Each card links directly to the corresponding GitHub repository for review.
+- **Contact:** Interactive form featuring real-time validation using DOM scripting to ensure clear and accurate user input.
+- **Resume:** Embedded PDF viewer allowing visitors to scroll or download my resume directly without leaving the site.
+
+This layout ensures efficient access to my qualifications and accomplishments while maintaining a user-friendly interface.
+
 ---
 
-Overall, this portfolio represents my dedication to mastering modern web development technologies while providing a polished and accessible presentation of my work. It acts as a foundation for my journey into full-stack development and stands as an evolving showcase for future personal and professional projects.
+## 🧩 Codebase & Technologies
+
+This portfolio was developed using:
+
+| Technology | Purpose |
+|-----------|---------|
+| HTML5 | Content structure and semantic page layout |
+| CSS3 | Responsive styling, modern UI, custom components |
+| JavaScript | DOM manipulation and contact form validation |
+| TypeScript | Structured project data and OOP application |
+| GitHub Pages | Hosting and version-controlled deployment |
+
+Special attention was given to modularizing the site design, ensuring accessibility, and maintaining consistent styling throughout all pages.
+
+---
+
+## 🌟 Summary
+
+This portfolio represents my progression in modern web development and acts as a polished introduction to my work as I continue toward becoming a full-stack engineer. It serves as a foundation that will expand with future personal projects, internships, and professional contributions in the software industry.
+
+Thank you for reviewing my work!
